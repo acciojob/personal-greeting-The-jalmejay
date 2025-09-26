@@ -9,7 +9,7 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <form>
-            <label htmlFor="name">Enter your name :</label>
+            <p>Enter your name:</p>
             <input type="text" name="name" onChange={(e)=>setname(e.target.value)} />
         </form>
         {name&& <p>Hello, {name}!</p>}
